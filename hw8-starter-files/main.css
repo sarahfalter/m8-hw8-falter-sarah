@@ -1,6 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* Main Menu Styling */
 .main-menu {
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .main-menu li {
   width: 33%;
@@ -8,6 +20,7 @@
   text-transform: uppercase;
   font-family: sans-serif;
   list-style-type: none;
+  height: 50px;
 }
 .main-menu-labels {
   margin: 0;
@@ -15,10 +28,10 @@
   background-color: #08254f;
   color: #fff;
   font-size: 18px;
+  cursor: pointer;
 }
 /* Sub Menu Styling */
 .sub-menu {
-  padding-left: 0;
   background-color: #dde1e7;
 }
 .sub-menu li {
@@ -26,5 +39,18 @@
   width: 100%;
   padding: 20px;
   border: 2px solid #fff;
-  box-sizing: border-box;
 }
+
+.hidden {
+  display: none;
+}
+
+.main-menu-labels:hover {
+  background: rgb(62, 187, 236);
+  transition: all 1s;
+}
+
+.hidden:hover {
+  transition: all 1s;
+}
+
