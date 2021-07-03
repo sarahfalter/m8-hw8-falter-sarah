@@ -1,4 +1,7 @@
 # m8-hw8-falter-sarah
+
+I had no issues I used our week 5 lectures to help me complete.
+
 Assignment 17 – Apply JavaScript and CSS Classes to an Existing HTML Document for Interactivity Coursework 8 
 Steps:
 1.  Create a GitHub Repository named “m8-hw8-lastname-firstname” replacing “lastname” and “firstname” with your own
